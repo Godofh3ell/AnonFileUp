@@ -60,7 +60,7 @@ AnonFilesBot Help!
 
 🌷 𝒟𝑒𝓋𝑒𝓁𝑜𝓅𝑒𝓇 : ✍️✍️𝓞𝓹𝓮𝓷 𝓒𝓸𝓭𝓮 𝓓𝓮𝓿𝓼 ✍️✍️
 
-Send me any media file, I will upload it to anonfiles.com and give the download link
+Send me any media file, I will upload it to letsupload.cc and give the download link
 """
 
 
@@ -90,7 +90,7 @@ async def upload(client, message):
     try:
         files = {'file': open(sed, 'rb')}
         await m.edit("**𝕌𝕡𝕝𝕠𝕒𝕕𝕚𝕟𝕘 𝕋𝕠 𝔸𝕟𝕠𝕟𝔽𝕚𝕝𝕖𝕤! ℙ𝕝𝕖𝕒𝕤𝕖 𝕎𝕒𝕚𝕥**")
-        callapi = requests.post("https://api.anonfiles.com/upload", files=files)
+        callapi = requests.post("https://api.letsupload.cc/upload", files=files)
         text = callapi.json()
         output = f"""
 <u>**🔅🎁🎁 𝓕𝓲𝓵𝓮 𝓤𝓹𝓵𝓸𝓪𝓭𝓮𝓭 𝓣𝓸 𝓐𝓷𝓸𝓷𝓕𝓲𝓵𝓮𝓼 🎁🎁**</u>
