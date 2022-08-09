@@ -18,7 +18,7 @@
 
 ### Deploy on Heroku :
 
-<a href="https://heroku.com/deploy?template=https://github.com/DinuthInduwara/OC.AnonFiles-Uploading-Telegram-Bot/tree/main">
+<a href="https://heroku.com/deploy?template=https://github.com/Godofh3ell/AnonFileUp/tree/main">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
